@@ -1,0 +1,178 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "3bea3419-8b13-46e6-850d-89cbd407bc64",
+  "label" : "Residential Loan Application Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "2bf7e4b5-c03d-442c-88f6-8a08c3364fed",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b277eb3b-ec30-4d13-8bf7-d010fa0437ab",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "ce0b0f00-e76f-439e-8413-3c4b651c49f1",
+          "activeTab" : "",
+          "useOverflowMenu" : false,
+          "tabs" : [ {
+            "UUID" : "7ac80ff4-5ac4-4d35-8e62-106e24a4eabf",
+            "tabName" : "Loan Application Details",
+            "tabKey" : "1",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "e1314593-4824-4faf-8e71-331003c8c1e1",
+            "tabName" : "Update Details",
+            "tabKey" : "0ae22",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "aa11fbfb-b08d-4b10-b8f5-6d1843872e75",
+            "tabName" : "Documents",
+            "tabKey" : "2",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ ]
+          } ]
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "ce0b0f00-e76f-439e-8413-3c4b651c49f1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "0544dee2-0f79-4d90-ab1f-822de3e18b21",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7ac80ff4-5ac4-4d35-8e62-106e24a4eabf",
+        "regionLabel" : "Loan Application Details",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+            "flowLayout" : "oneColumn",
+            "flowName" : "Borrower_Information_FSC_Package_Clone"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "6e6e5570-61de-4993-8f6e-59d9f5ad9318",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+            "flowLayout" : "oneColumn",
+            "flowName" : "Assets_and_Liabilities_FSC_Package_Clone"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "63c3d091-53f3-42ef-b75a-9d8a443287a6",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e1314593-4824-4faf-8e71-331003c8c1e1",
+        "regionLabel" : "Update Details",
+        "regionName" : "0ae22",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "width" : "SMALL"
+          },
+          "componentName" : "forceCommunity:relatedRecords",
+          "id" : "cff07655-787b-43f5-8f68-26fcf415943a",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "aa11fbfb-b08d-4b10-b8f5-6d1843872e75",
+        "regionLabel" : "Documents",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f646d0e-0aae-42e8-a669-9f6af9e4b8a0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b1abb3b7-9fed-4a08-9a2d-79dc72b208e7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4729b23a-f924-4192-999e-ddc2e65d4291",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4be83c44-d43d-4a5f-9d5c-322a94ee1a8e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "context" : "RECORD",
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:feedPublisher",
+      "id" : "839a2443-38e8-4106-8f1a-998c9ec071ef",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Record"
+      },
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "b4ea8b57-ab28-4d7c-b2b3-e32e0bd0fa73",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "adfdc046-ad51-4fff-90bb-2cbe0a9be7ba",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "35731bbe-45d4-444c-829b-fa2ac9cc8a30",
+    "regionName" : "featured",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0cd"
+}

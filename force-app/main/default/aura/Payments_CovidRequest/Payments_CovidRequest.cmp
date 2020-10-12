@@ -1,0 +1,71 @@
+<aura:component implements="force:appHostable,lightning:isUrlAddressable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes"
+                access="global" controller="Payments_CovidCase">
+    
+    <aura:attribute name="selectedType" type="String" default=""/>
+    <aura:attribute name="selectedCat" type="String" default=""/>
+    <aura:attribute name="selectedReason" type="String" default=""/>
+    <aura:attribute name="transLimit" type="Double" default=""/>
+       
+    
+    <!--loading spinner start-->
+    <lightning:spinner aura:id="Spinner" alternativeText="Loading" size="medium" variant="brand" class="slds-hide"/>
+    <!-- Loading spinner end-->  
+    
+    <lightning:card title="Account Request" iconName="action:log_event" footer="">    
+         <div class="slds-p-horizontal_small">
+            <!-- Options START -->
+            <lightning:select name="reqType" required="true" label="Select Request Type"
+                              messageWhenValueMissing="Please select a value"
+                              aura:id="reqType" value="{!v.selectedType}"
+                              class="slds-col slds-size_6-of-12">
+                <option value="">-- None --</option> 
+                <option value="Account Support">Account Support</option> 
+                <option value="Product Support">Product Support</option>
+                <option value="General">General</option>
+            </lightning:select>
+            
+            <lightning:select name="reqCat" required="true" label="Select a Topic"
+                              messageWhenValueMissing="Please select a value"
+                              aura:id="reqCat" value="{!v.selectedCat}"
+                              class="slds-col slds-size_6-of-12">
+                <option value="">-- None --</option>            
+                <option value="Update Monthly Sales Amount">Update Monthly Sales Amount</option>
+                <option value="Update Avg Transaction Amount">Update Avg Transaction Amount</option> 
+                <option value="Report a Transaction">Report a Transaction</option>
+                <option value="Other">Other</option>
+            </lightning:select>
+            
+            <lightning:select name="reason" required="true" label="Select reason"
+                              messageWhenValueMissing="Please select a value"
+                              aura:id="reason" value="{!v.selectedReason}"
+                              class="slds-col slds-size_6-of-12">
+                <option value="">-- None --</option> 
+                <option value="COVID19 Impact">COVID19 Impact</option> 
+                <option value="Change in Business Model">Change in Business Model</option>
+                <option value="Other">Other</option>
+            </lightning:select>
+            
+            <lightning:layout class="slds-p-top_small slds-col slds-size_6-of-12">
+                <lightning:layoutItem class="slds-p-right_small">               
+                    
+                    <lightning:input type="number" name="amountInput" 
+                                     label="Enter Total Amount" value="{!v.transLimit}" 
+                                     formatter="currency" step="0.01"/>
+                    
+                </lightning:layoutItem>
+                
+            </lightning:layout>
+            <!-- Options END -->
+            
+            <!-- BUTTON START -->
+            <lightning:layout class="slds-p-top_small slds-p-bottom_small slds-col slds-size_6-of-12 ">
+                <lightning:layoutItem class="slds-p-right_small">
+                    <lightning:button label="Cancel" type="reset" title="Cancel action" onclick="{!c.resetForm}"/>
+                </lightning:layoutItem>
+                <lightning:button variant="brand" label="Submit" type="submit"  title="Submit action" onclick="{! c.createCase }" />
+            </lightning:layout>
+            <!-- BUTTON END -->
+        </div>
+    </lightning:card>
+    
+</aura:component>

@@ -1,0 +1,28 @@
+{
+  "definitionName" : "jepson:branding-jepson",
+  "id" : "6cfac726-e90c-4857-9083-2062cb6ded2d",
+  "label" : "Jepson",
+  "type" : "brandingSet",
+  "values" : {
+    "ActionColor" : "rgb(42, 148, 214)",
+    "BorderColor" : "rgb(212, 212, 212)",
+    "CardBackgroundColor" : "rgba(255, 255, 255, 0)",
+    "CompanyLogo" : "/file-asset/Payments?v=1&height=300&width=300",
+    "DetailTextColor" : "rgba(0, 0, 0, 0.6)",
+    "ErrorFontColor" : "#ff9e9e",
+    "HeaderFonts" : "Montserrat",
+    "LinkColor" : "#111111",
+    "LoginBackgroundColor" : "#F4F4F4",
+    "LoginBackgroundImage" : "../../../../sfsites/picasso/core/external/salesforceIdentity/images/background.jpg?v=1",
+    "OverlayTextColor" : "#FFFFFF",
+    "PageBackgroundColor" : "#FFFFFF",
+    "PrimaryFont" : "Lato",
+    "TextColor" : "rgba(0, 0, 0, 0.8)",
+    "TextTransformStyle" : "none",
+    "_ActionColorDarker" : "#2177ac",
+    "_ActionColorTrans" : "rgba(42, 148, 214, 0.9)",
+    "_HoverColor" : "rgba(42, 148, 214, 0.05)",
+    "_LinkColorDarker" : "#000000",
+    "_OverlayTextColorShadow" : "#000000"
+  }
+}

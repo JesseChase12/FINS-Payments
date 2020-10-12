@@ -1,0 +1,33 @@
+{
+  "definitionName" : "prm:branding-prm-merged",
+  "id" : "0552b859-74ee-4791-b76e-837888c48b3d",
+  "label" : "Partner Central",
+  "type" : "brandingSet",
+  "values" : {
+    "ActionColor" : "rgb(52, 151, 214)",
+    "BorderColor" : "#F4F4F4",
+    "CardBackgroundColor" : "rgb(239, 228, 228)",
+    "CompanyLogo" : "/file-asset/Payments2?v=1&height=300&width=300",
+    "DetailTextColor" : "rgb(105, 105, 104)",
+    "ErrorFontColor" : "rgb(253, 15, 15)",
+    "HeaderBackgroundColor" : "rgb(255, 255, 255)",
+    "HeaderFonts" : "Open Sans",
+    "LinkColor" : "rgb(52, 151, 214)",
+    "LoginBackgroundColor" : "rgb(52, 100, 148)",
+    "LoginBackgroundImage" : "",
+    "NavigationMenuColor" : "rgb(52, 151, 214)",
+    "NavigationMenuTextColor" : "#FFFFFF",
+    "OverlayTextColor" : "#FFFFFF",
+    "PrimaryFont" : "Open Sans",
+    "TextColor" : "rgb(51, 51, 52)",
+    "TextTransformStyle" : "none",
+    "_ActionColorDarker" : "#247bb3",
+    "_ActionColorTrans" : "rgba(52, 151, 214, 0.9)",
+    "_HeaderInputBackgroundColor" : "rgba(255,255,255,.4)",
+    "_HeaderPlaceholderTextColor" : "rgba(85,85,85,.8)",
+    "_HeaderTextColor" : "rgba(34,34,34,.8)",
+    "_HoverColor" : "rgba(52, 151, 214, 0.05)",
+    "_LinkColorDarker" : "#2681bb",
+    "_NavigationMenuHoverColor" : "rgba(255,255,255,.2)"
+  }
+}

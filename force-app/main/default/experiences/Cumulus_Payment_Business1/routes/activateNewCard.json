@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "8310856d-8722-4a1d-bcf4-afc40df7330d",
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "id" : "14d16858-86db-4b11-a945-d25c0b83ba35",
+  "label" : "activate new card",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-activate-new-card",
+  "type" : "route",
+  "urlPrefix" : "activate-new-card"
+}

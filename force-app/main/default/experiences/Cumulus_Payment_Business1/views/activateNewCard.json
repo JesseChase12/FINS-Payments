@@ -1,0 +1,83 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "8310856d-8722-4a1d-bcf4-afc40df7330d",
+  "label" : "activate new card",
+  "regions" : [ {
+    "id" : "2933ff63-aef9-4878-89bb-904bff45b0e5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2>Activate Card</h2>\n<p>Activate Your New Card Here!</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "cda35238-3eeb-4f84-87ea-d6bf466e4693",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!CurrentUser.accountId}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Card_Activation_Package_Clone"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "466dda53-15cb-406a-98db-90a3991f79e8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "726b47f6-481e-4503-b966-3648343285aa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "f6d98a74-6f23-41b0-8194-5020e12f75ab",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7369f4e1-148b-41ac-9a41-f5f9f873f94c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "fe05e389-aee2-412d-942f-04c83c3da75d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "activate new card"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "76bf2e7e-62dd-4b02-bdf0-4e9518afca27",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e2832977-c054-470b-bd73-1dfeba486ba0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-activate-new-card"
+}

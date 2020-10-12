@@ -1,0 +1,116 @@
+{
+  "appPageId" : "a87943dd-84b1-4974-b221-37c3b17f38cf",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "68308f2f-5a97-4a7e-b052-a7b79ccab182",
+  "label" : "Campaign List",
+  "regions" : [ {
+    "id" : "8c5cb6a2-b774-44e4-af00-6e9ec9ee78a7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "bf69c6c5-7a61-435c-b5e7-07881e7613e1",
+          "activeTab" : "tab1",
+          "useOverflowMenu" : false,
+          "tabs" : [ {
+            "UUID" : "9d5a3bbc-aabb-48de-aad6-0181d0ee3a81",
+            "tabName" : "Campaign Marketplace",
+            "tabKey" : "tab1",
+            "locked" : false,
+            "allowGuestUser" : true,
+            "seedComponents" : [ {
+              "fqn" : "forceCommunity:richTextInline",
+              "attributes" : {
+                "richTextValue" : "                                  <p><br/></p>                                <p style=&quot;text-align:left;&quot;>                                     Use these campaigns to generate leads and grow your business                                 </p>                       "
+              }
+            }, {
+              "fqn" : "forceCommunity:campaignTileList",
+              "attributes" : { }
+            } ]
+          }, {
+            "UUID" : "54b8b5ad-cab5-41f4-8a91-15db16a9ba3a",
+            "tabName" : "All Campaigns",
+            "tabKey" : "tab2",
+            "locked" : false,
+            "allowGuestUser" : true,
+            "seedComponents" : [ {
+              "fqn" : "forceCommunity:objectHome",
+              "attributes" : {
+                "filterName" : "{!filterId}",
+                "scope" : "Campaign"
+              }
+            } ]
+          } ]
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "bf69c6c5-7a61-435c-b5e7-07881e7613e1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "                                  <p><br/></p>                                <p style=&quot;text-align:left;&quot;>                                     Use these campaigns to generate leads and grow your business                                 </p>                       "
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d413e2e7-14ee-40e0-b3c8-b71e77b95ed1",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "highlight" : "__",
+            "highlightColor" : "#007DB8",
+            "listViewName" : "All_Campaigns",
+            "showImage" : true,
+            "sortBy" : "Name",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "65b5d384-3917-4903-b626-3198a513d23d",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9d5a3bbc-aabb-48de-aad6-0181d0ee3a81",
+        "regionLabel" : "Campaign Marketplace",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "filterName" : "{!filterId}",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "Campaign",
+            "showDisplay" : "showall"
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "f8af3dbe-718d-4bfa-8e8f-4c1b4a272417",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "54b8b5ad-cab5-41f4-8a91-15db16a9ba3a",
+        "regionLabel" : "All Campaigns",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "448614b0-7da5-4b1a-a972-6b4789d2fec3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d12cd276-806c-4c6c-8afe-ebff56121a90",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-701"
+}

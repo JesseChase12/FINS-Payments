@@ -1,0 +1,100 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "397943c8-9bd4-4c59-a117-b30c3b7de467",
+  "label" : "Contact Us",
+  "regions" : [ {
+    "id" : "c7701900-b393-400d-8e72-7d2731eea811",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "NewCase",
+        "headerSubtitle" : "Tell us how we can help.",
+        "headerTitle" : "Contact Customer Support",
+        "quickActionName" : "New_Case_Banking",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "53008ed1-fde6-4141-a547-df42799aaf41",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d6553eb4-b77a-4420-b847-718e0cd54372",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2146b84e-82f0-49a1-bdda-83bbf9dbaffe",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Contact Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ce8aabba-89d5-4111-a012-6e0b8d5dcee4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f380a358-efb8-40f3-92fc-c555e805ac31",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "hideWhenEmpty" : true,
+        "launchOption" : "launchModal",
+        "maxDisplayPropositions" : 1,
+        "showDescription" : true,
+        "showImage" : true,
+        "showRejectAction" : false,
+        "showTitle" : false,
+        "strategyName" : "FINS_Community_ContactUs_Strategy_New",
+        "widgetTitle" : "Suggested Actions"
+      },
+      "componentName" : "forceCommunity:nbaWidget",
+      "id" : "5632aaed-5e9d-4bac-b0a9-3043c085f49b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : false,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did the content help solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : false,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : true,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "a6e8fd00-8c75-4b33-953a-ab9cd61e7371",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "041d5a2e-d104-4909-a264-c1614d5d217e",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

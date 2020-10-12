@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickActionWithoutHeader"
+                access="global">
+    
+    <lightning:notificationsLibrary aura:id="notifLib"/>
+    <div class="show"  aura:id="first" >
+    	<div class="exampleHolder">
+        Merchant Credit Check Process
+        </div>
+        <lightning:recordEditForm objectApiName="Lead" recordId="{!v.recordId}" aura:id="leadForm">
+            <lightning:messages />
+            <lightning:inputField fieldName="Name"/>
+            <lightning:inputField fieldName="Company"/>
+            <lightning:inputField fieldName="Tax_ID_Number__c"/>
+            <lightning:inputField fieldName="FinServ__PotentialValue__c"/>            
+        </lightning:recordEditForm>
+        <lightning:button variant="brand" type="button" label="Submit" onclick="{!c.handleVerify}" />
+    </div>
+    <div class="hide spinnerbox" aura:id="spinner">
+    	<lightning:spinner alternativeText="Loading" size="large" />
+    </div>
+    <div class="hide" aura:id="second">
+    	<div class="padding center">
+        	    <lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+            	<h2>Success</h2>
+            	<p>Merchant Verification completed successfully.</p>
+        </div>
+    </div>
+</aura:component>

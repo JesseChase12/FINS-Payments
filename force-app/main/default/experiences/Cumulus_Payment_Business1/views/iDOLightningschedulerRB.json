@@ -1,0 +1,49 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "0a254f79-33a6-450f-9d9d-db3a5f01cb2d",
+  "label" : "IDO_lightningschedulerRB",
+  "regions" : [ {
+    "id" : "09b9613e-ff63-4102-ac58-eaaced22043b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "",
+        "flowLayout" : "oneColumn",
+        "flowName" : "runtime_appointmentbooking__In_New"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "2ea841fb-30da-4b32-a709-1f69825909a1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9553cb5a-7cbb-46ee-8fe4-16f76f0bee81",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0c1d1022-2eff-425c-949d-d1a9e72e9f76",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "IDO_lightningschedulerRB"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a7e5749b-7577-4060-997e-1697d073af3e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "238dca98-9c6b-42a1-932a-dfe2d6d3ac77",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-ido-lightningscheduler-r-b"
+}

@@ -1,0 +1,25 @@
+{
+    "orgName": "paymentorg",
+    "edition": "Developer",
+    "description": "Payment Demo",
+    "settings": {
+        "chatterSettings": {
+            "enableChatter": true
+        },
+        "pathAssistantSettings": {
+            "pathAssistantEnabled": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            }
+        }
+    },
+    "hasSampleData": true
+}

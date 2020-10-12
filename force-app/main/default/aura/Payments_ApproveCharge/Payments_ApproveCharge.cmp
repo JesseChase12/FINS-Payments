@@ -1,0 +1,28 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,flexipage:availableForRecordHome,force:hasRecordId">
+    
+    <aura:attribute name="options" type="List" default="[
+                                                        {'label': 'Current processing charge: 3.5%', 'value': 'option1'},
+                                                        {'label': 'Increase rate to 4%', 'value': 'option2'}
+                                                        ]"/>
+    <aura:attribute name="value" type="String" default=""/>
+    
+    <lightning:card title="Processing Charge" iconName="standard:partner_fund_request" footer="">
+        <div class="slds-p-horizontal_small">
+            <lightning:radioGroup name="radioGroupRequired"
+                                  label="Update Processing Charge"
+                                  options="{! v.options }"
+                                  value="{! v.value }"
+                                  type="radio"
+                                  required="true"/>
+            
+            <!--Lightning Flow Attribute-->
+            <lightning:flow aura:id="CloseCaseFlow" onstatuschange="{!c.statusChange}"/>
+            
+            <lightning:layout class="slds-p-top_small slds-p-bottom_small slds-col slds-size_6-of-12 ">
+                <lightning:layoutItem class="slds-p-right_small">
+                    <lightning:button variant="Brand" label="Submit" onclick="{!c.handleConfirm}"/>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </div>
+    </lightning:card>
+</aura:component>

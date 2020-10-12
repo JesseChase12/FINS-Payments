@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>Case</contextRecordType>
+    <description>Used for Payments Demo Script on the Case Object</description>
+    <label>Payments - Case</label>
+    <recommendationLoad>
+        <label>Update Processing Charge</label>
+        <name>Update_Processing_Charge</name>
+        <condition>
+            <field>Name</field>
+            <operator>EQUALS</operator>
+            <value>
+                <type>TEXT</type>
+                <value>Payments - Extend Current Fee</value>
+            </value>
+        </condition>
+        <conditionLogic>and</conditionLogic>
+        <object>Recommendation</object>
+    </recommendationLoad>
+    <union>
+        <childNode>Update_Processing_Charge</childNode>
+        <label>Output</label>
+        <name>Output_80edcbcb18844082981a54a22d5bcbe0</name>
+    </union>
+</RecommendationStrategy>

@@ -1,0 +1,25 @@
+.THIS.exampleHolder{
+    position: relative;
+    display: inline-block;    
+    font-size: 20px;   
+}
+.THIS .show,.THIS.show{
+    display:block;
+}
+.THIS.spinnerbox,.THIS .spinnerbox{
+    height:300px;
+}
+.THIS .padding{
+    padding:20px;
+}
+.THIS .center{
+    text-align:center;
+}
+.THIS.hide{
+    display:none;
+}
+.THIS h2{
+    font-size:22px;
+    font-weight:bold;
+    margin:10px 0;
+}

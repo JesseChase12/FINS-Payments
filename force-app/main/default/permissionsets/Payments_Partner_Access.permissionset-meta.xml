@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Payments_Console</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Includes access to the Payments App and Payments Partner Community</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Payments Partner Access</label>
+</PermissionSet>

@@ -1,0 +1,9 @@
+{
+  "activeViewId" : "3bea3419-8b13-46e6-850d-89cbd407bc64",
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "id" : "045bf2c9-6e79-408e-bf04-8f79871e828e",
+  "label" : "Residential Loan Application Detail",
+  "routeType" : "detail-0cd",
+  "type" : "route",
+  "urlPrefix" : "residentialloanapplication"
+}

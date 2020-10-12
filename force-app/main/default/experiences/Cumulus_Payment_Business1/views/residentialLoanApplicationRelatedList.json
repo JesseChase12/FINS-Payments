@@ -1,0 +1,38 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b6a004a5-3c5c-43ee-a4a8-70d7f1662775",
+  "label" : "Residential Loan Application Related List",
+  "regions" : [ {
+    "id" : "d6e34c68-4c69-4f48-a9fd-99616959516b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "5986b470-6edb-48a4-9673-1fc07c772a32",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4b6898c8-0b19-457a-a7be-b8f9c37212a0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b5e05a2a-1dc3-4371-86df-47377d3136bc",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-0cd"
+}

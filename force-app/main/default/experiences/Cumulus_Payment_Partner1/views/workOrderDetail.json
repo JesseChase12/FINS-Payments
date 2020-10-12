@@ -1,0 +1,93 @@
+{
+  "appPageId" : "a87943dd-84b1-4974-b221-37c3b17f38cf",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "da4482cf-a2eb-4254-8fad-1b6ad680a9a8",
+  "label" : "Work Order Detail",
+  "regions" : [ {
+    "id" : "c526932d-0278-43de-a2c5-2e41e43a5bb2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "94f3216e-c705-4b40-9cdb-dcc434741079",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "4ef2d19d-89e1-4295-ba5e-786198776fb2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:relatedRecords",
+      "id" : "6e15ef16-8f54-4972-b339-dd9d5bd0b431",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a70ff8b7-6d9b-4b17-85a6-a4cd617fe707",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "72e9b1c3-e02b-4809-b2da-c68eb7709900",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Record"
+      },
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "c7749ce7-10db-48a2-9608-ad092c360b2c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:FSLBookAppointment",
+      "id" : "ddd816db-ea5c-49cf-80a8-a6763ab1e479",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4e79d488-952a-4260-8fb0-4b0c4929b719",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5ab23246-bc8f-4eb9-95d3-268c77f175dc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e9984ce5-ec75-400e-9282-3ecfb9336d77",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "detail-0WO"
+}

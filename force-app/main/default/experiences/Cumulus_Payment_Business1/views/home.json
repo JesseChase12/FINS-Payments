@@ -1,0 +1,131 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "09603a88-6a16-49c4-bbe0-728acb3cc235",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1905308f-e1f6-48d6-956a-a4d73ce9ec29",
+          "columns" : [ {
+            "UUID" : "3b1b590f-4e89-4976-9b8c-edf68d31501b",
+            "columnName" : "Column 1",
+            "columnKey" : "1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b15b9324-11a9-4354-a723-84d13ca602c0",
+            "columnName" : "Column 2",
+            "columnKey" : "21805",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4f311698-88be-467f-9f15-772d5da85b26",
+            "columnName" : "Column 3",
+            "columnKey" : "d84c4",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1905308f-e1f6-48d6-956a-a4d73ce9ec29",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.cumuluswebinar1.1}\" /></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e0d0842f-0565-4ea7-b5f0-543f1eade91c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3b1b590f-4e89-4976-9b8c-edf68d31501b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.cumuluswebinar2.1}\" /></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b2d9b6de-33d5-4d30-b1e4-eaf3681c21fb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b15b9324-11a9-4354-a723-84d13ca602c0",
+        "regionLabel" : "Column 2",
+        "regionName" : "21805",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"/cumuluspaymentbusiness/s/service-needs\" class=\"slds-button slds-button--brand slds-button_stretch askCommunityBtn uiButton forceCommunityAskCommunity ids_button\" type=\"button\" data-aura-class=\"uiButton forceCommunityAskCommunity\">\n    <span class=\"label bBody truncate\" dir=\"ltr\">Business Services</span>\n</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "e07a5592-7ac6-42e8-bef5-73ddbe86be5a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"/cumuluspaymentbusiness/s/IDOlightningschedulerRB\" class=\"slds-button slds-button--brand slds-button_stretch askCommunityBtn uiButton forceCommunityAskCommunity ids_button\" type=\"button\" data-aura-class=\"uiButton forceCommunityAskCommunity\">\n    <span class=\"label bBody truncate\" dir=\"ltr\">Schedule a New Appointment</span>\n</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "8dc84cd5-5d39-41f3-9c21-1284f82cab89",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"/cumuluspaymentbusiness/s/activate-new-card\" class=\"slds-button slds-button--brand slds-button_stretch askCommunityBtn uiButton forceCommunityAskCommunity ids_button\" type=\"button\" data-aura-class=\"uiButton forceCommunityAskCommunity\">\n    <span class=\"label bBody truncate\" dir=\"ltr\">Activate New Card</span>\n</a>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "1a0c84c0-0b8f-4e91-9bc9-ee46375b0511",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4f311698-88be-467f-9f15-772d5da85b26",
+        "regionLabel" : "Column 3",
+        "regionName" : "d84c4",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e6e4ae4-1980-4dae-8f84-10edbe264633",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "aa8c33c6-75b3-440d-81c2-01ba037396b0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7b375b0f-a448-4fd0-9c06-038b28e59c0a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

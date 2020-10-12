@@ -1,0 +1,90 @@
+{
+  "appPageId" : "a87943dd-84b1-4974-b221-37c3b17f38cf",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "73427aad-7f4d-427c-a728-3ee1640148b6",
+  "label" : "Resources",
+  "regions" : [ {
+    "id" : "f9e4785d-850a-4cc2-9a8e-6b2f8dde2f7b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "1f4a4e6a-b13a-4306-af87-15610d122e93",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "fd2f38da-9dcd-49a8-9ed0-ce80fd571cd1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "channel" : "CustomChannel2",
+        "title" : "Recommended Collateral"
+      },
+      "componentName" : "forceCommunity:recommendations",
+      "id" : "75f514bd-0818-4911-a64a-64f49fde772d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "784ce72b-a2c0-44d7-98dd-725dc273c13b",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "Choose m our available campaigns & collateral to se with your customers and prospects.",
+        "metaTags" : "",
+        "title" : "Campaign Marketplace"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ab061edc-40c2-43f9-a1bd-3b5bce51bad3",
+      "renditionMap" : {
+        "de" : "00839d4d-6535-44ef-99da-fc295dd9f5d6",
+        "es" : "916b97fa-f429-4f1b-b1be-f82337d0a45c",
+        "fr" : "6733a961-1190-4e0c-9a40-7e4f6b45f1d6",
+        "ja" : "a0e95aee-b890-4ae4-80f8-96871c93b1f2"
+      },
+      "renditions" : [ {
+        "id" : "00839d4d-6535-44ef-99da-fc295dd9f5d6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Resources"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "6733a961-1190-4e0c-9a40-7e4f6b45f1d6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Resources"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "916b97fa-f429-4f1b-b1be-f82337d0a45c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Resources"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "a0e95aee-b890-4ae4-80f8-96871c93b1f2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Resources"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "79f372eb-5a61-4ed4-a05c-0bf8b536fb1e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "files"
+}

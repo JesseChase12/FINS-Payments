@@ -1,0 +1,59 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "668b5850-3e90-4bb0-ab33-ba90512a7291",
+  "label" : "New-Account-Creation",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.newaccount.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "861cf94f-36de-4df9-ab2f-b3bd86ebca3e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b9a58174-389f-4213-b873-0def742cce37",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "",
+        "flowLayout" : "oneColumn",
+        "flowName" : "New_Account_Creation"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "f3564fc7-0341-474b-b626-62c35022257d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c21d6ac8-51a1-47f1-8c20-91225e2030cc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e6cf0e93-cfcb-41b8-8e83-453480c160ca",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "New-Account-Creation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d7953c77-2f13-4c34-8c58-00693ddde2fc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f998f4d0-147f-4877-9f7e-9ff11be268bf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-new-account-creation"
+}

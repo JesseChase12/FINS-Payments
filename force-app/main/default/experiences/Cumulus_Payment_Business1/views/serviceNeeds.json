@@ -1,0 +1,119 @@
+{
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "413c50e0-a498-4e9f-82e6-90c9150a226a",
+  "label" : "Service Needs",
+  "regions" : [ {
+    "id" : "f6307c6b-694a-4d02-b2db-cb094180d911",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "e3e8bc15-8b5f-489a-9873-d49826509dd3",
+          "activeTab" : "",
+          "useOverflowMenu" : false,
+          "tabs" : [ {
+            "UUID" : "cb88a77a-e0e9-4463-bc2a-44f34c2ab147",
+            "tabName" : "Cases",
+            "tabKey" : "1",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "cc1a57fc-443c-4970-8848-e48eee2e1cdc",
+            "tabName" : "Articles",
+            "tabKey" : "2",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "aabc056a-35b1-471c-9a01-d18965843142",
+            "tabName" : "Merchant Request",
+            "tabKey" : "6647b",
+            "locked" : false,
+            "allowGuestUser" : false,
+            "seedComponents" : [ ]
+          } ]
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "e3e8bc15-8b5f-489a-9873-d49826509dd3",
+      "regions" : [ {
+        "components" : [  ],
+        "id" : "cb88a77a-e0e9-4463-bc2a-44f34c2ab147",
+        "regionLabel" : "Cases",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "numberOfArticles" : 5,
+            "showTitle" : true,
+            "title" : "Top Articles",
+            "topicList" : [ {
+              "name" : "0TO1N000001MYyzWAG",
+              "isPublic" : true
+            } ]
+          },
+          "componentName" : "forceCommunity:topArticleList",
+          "id" : "d7a9288f-464b-4852-895a-80ff22b26cdd",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cc1a57fc-443c-4970-8848-e48eee2e1cdc",
+        "regionLabel" : "Articles",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:Payments_CovidRequest",
+          "id" : "b85db9a5-c2ee-41bf-bc2d-87ab365e6f2c",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "aabc056a-35b1-471c-9a01-d18965843142",
+        "regionLabel" : "Merchant Request",
+        "regionName" : "6647b",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9055c7b3-8825-4c74-b35e-080f90d79eed",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e080f947-e104-40bf-bdeb-f846b4563eb4",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "803079a9-8656-40c2-b51b-149b542c93e1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Service Needs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3a9f2607-89b2-4cae-abde-8f0fd943327f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ec0c32d4-fa74-4645-972a-3946109ba1b3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-service-needs"
+}

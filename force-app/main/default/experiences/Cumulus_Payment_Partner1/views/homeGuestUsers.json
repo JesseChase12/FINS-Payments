@@ -1,0 +1,113 @@
+{
+  "appPageId" : "a87943dd-84b1-4974-b221-37c3b17f38cf",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "8738b186-acae-47fd-af8a-5ceb6da54d95",
+  "label" : "Home: Guest Users",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Banner_Reseller_Registration.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "18a74e7b-5f1b-4eae-b34a-aded2d049177",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f886e3c3-a64c-4464-8553-196f2130d96f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "b3e40fd5-ecb8-481d-adb9-ce0052c91a4a",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "32d5bfec-5d84-4ffe-adf8-72309a5d60c5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.PC_Recruitment_Banner1.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fe76b66a-be32-4070-aa43-487aa177eca6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "44423a68-9df1-40b6-b3bd-dbd6f4e91ac2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 style=\"text-align: center;\">Channel Program Overview</h2><div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" frameborder=\"0\" width=\"100%\" src=\"https://www.youtube.com/embed/a9Ad-0hAzz0\"></iframe></div><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ff4baf25-2229-4b2f-a1c0-1debc778c20e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "63a9789e-8e9f-4a75-a5e7-73b5c6f727d4",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "Our partner tools home page.",
+        "metaTags" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "35207158-77f7-4548-828c-c2becd3e01b1",
+      "renditionMap" : {
+        "de" : "db2a499a-2232-4138-9034-e2b0a5464a68",
+        "es" : "ac2c056b-6a8b-4ba6-9094-67fcc611d60b",
+        "fr" : "e3996ad2-1733-4c62-9834-4e7b11111e58",
+        "ja" : "a69229f1-e0ea-43a8-b7ca-3a13b9255338"
+      },
+      "renditions" : [ {
+        "id" : "db2a499a-2232-4138-9034-e2b0a5464a68",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Home: Guest Users"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "e3996ad2-1733-4c62-9834-4e7b11111e58",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Home: Guest Users"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ac2c056b-6a8b-4ba6-9094-67fcc611d60b",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Home: Guest Users"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "a69229f1-e0ea-43a8-b7ca-3a13b9255338",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Home: Guest Users"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "ebd5a187-05cb-48a4-be67-cf50048622b5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

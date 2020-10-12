@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "0a254f79-33a6-450f-9d9d-db3a5f01cb2d",
+  "appPageId" : "5ac468de-2964-46cb-a2e3-f1d12b1170b6",
+  "id" : "b4b53b55-88a4-4f3c-b61a-302e2ab711c4",
+  "label" : "IDO_lightningschedulerRB",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-ido-lightningscheduler-r-b",
+  "type" : "route",
+  "urlPrefix" : "IDOlightningschedulerRB"
+}
